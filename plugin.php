@@ -41,7 +41,6 @@ class MailchimpPlugin extends KokenPlugin
     {
         echo '<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">';
         echo '<style>'.file_get_contents(__DIR__.'/assets/css/main.css').'</style>';
-        echo '<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us16.list-manage.com","uuid":"33485be8ac883b6e491f29330","lid":"29770146c7"}) })</script>';
         echo '<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/33485be8ac883b6e491f29330/feb9ab734c57e9fd4991ee90c.js");</script>';
     }
 
