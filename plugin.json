@@ -1,0 +1,17 @@
+{
+  "name": "Mailchimp",
+  "version": "1.0.0",
+  "description": "Add a Mailchimp newsletter subscription form.",
+    "documentation": "https://github.com/wilsonlewis/koken-mailchimp",
+  "author": {
+    "name": "Wilson Lewis",
+    "link": "https://github.com/wilsonlewis"
+  },
+    "data": {
+        "url": {
+            "label": "Url",
+            "info": "The url of a Mailchimp newsletter subscription.",
+            "type": "string"
+        }
+    }
+}
